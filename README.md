@@ -11,9 +11,8 @@ git clone https://github.com/wbabcock/api-template.git
 
 **2) Rename the folders and files appropriately**
 ```
-models\database_name
-models\database_name\table_name.go
-routes\database_name
+models\table_name.go
+routes\table_name.go
 ```
 
 **3) Setup the Go mod file**
@@ -24,7 +23,7 @@ go mod vendor
 
 **4) Configure the database settings**
 ```
-config.json
+db\controller.go
 ```
 
 

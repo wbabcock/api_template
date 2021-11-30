@@ -1,4 +1,4 @@
-package taranis
+package models 
 
 import (
 	"net/http"
